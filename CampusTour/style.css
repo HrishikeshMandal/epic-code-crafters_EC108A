@@ -1,11 +1,11 @@
 * {
     margin: 0;
-    padding: 0;
+    padding: 3;
 
 }
 
 body {
-    background-image: url(images/aotcampus.jpg);
+    background-image: url(images/photos/clg.jpg);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -15,22 +15,29 @@ body {
 
 .main {
     width: 100vw;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
+    background: linear-gradient(to top, rgba(67, 0, 249, 0.259)50%, rgba(67, 0, 249, 0.259)50%);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
 .navbar {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    width: 1600px;
+    height: 70px;
+    margin: 20px auto 0;
+    border-radius: 35px;
+    background: linear-gradient(to right, #a20ae2, #00aaff, #bfe1f0); /* Blue gradient background */
+    padding: 20px; 
+    
+    box-shadow: 0 0 20px rgb(3, 229, 249);
 }
 
-.icon {
-    width: 200px;
-    float: left;
-    height: 70px;
+.icon img{
+    width: 64px;
+    filter: brightness(2);
 }
 
 .logo {
@@ -74,8 +81,8 @@ ul li a {
 
 
 .search {
-    width: 330px;
-    float: left;
+    width: 600px;
+    float: right;
     margin-left: 270px;
 }
 
@@ -86,11 +93,11 @@ ul li a {
     background: transparent;
     border: 1px solid #71c9f2;
     margin-top: 13px;
-    color: #fff;
+    color: #ac0c0c;
     border-right: none;
-    font-size: 16px;
+    font-size: 18px;
     float: left;
-    padding: 10px;
+    padding: 12px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -155,7 +162,9 @@ ul li a {
 }
 
 .cn:hover {
-    background-color: #fff;
+    background: linear-gradient(to right, #a704a9, #fffcfd, #cc0a9f);
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+    transition: box-shadow 0.3s;
 }
 
 .content span {
@@ -222,3 +231,84 @@ ul li a {
     padding-top: 5px;
     transition: 0.3s ease;
 }
+.par {
+    font-family: cursive; 
+}
+
+.par:hover {
+    color: rgb(3, 255, 255); 
+}
+.footer {
+    position: relative;
+    background: linear-gradient(to right, #8003b582, #1bc7c770, #bfe1f0); /* Blue gradient background */
+    padding: 20px;
+}
+
+.footer:before {
+    content: '';
+    position: absolute;
+    bottom: -20px; /* Adjust this value to control the height of the wave */
+    left: 0;
+    width: 100%;
+    height: 40px; /* Adjust this value to control the height of the wave */
+    background: url('images/photos/wave.svg') repeat-x; /* Replace 'wave.svg' with your wavy image */
+}
+nav.hoo {
+    background: linear-gradient(to right, #4e54c8, #8f94fb, #c6cbf5, #abb8c6); /* Multicolor gradient background in blue and purple tones */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5); /* White shadow */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav.hoo a {
+    color: #fff; /* White text color */
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav.hoo a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* White background color with opacity on hover */
+    color: #fff; /* White text color on hover */
+}
+.display {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+  }
+  
+  .display span {
+    background: linear-gradient(to right, #8a7101, #ffa601, #fbff02, #a87a07, #706006);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease;
+  }
+  
+  .display:hover span {
+    color: #969fee;
+  }
+  .box {
+    background-color: rgba(255, 255, 255, 0.5); /* White color with high transparency */
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .box:hover {
+    background-color: rgba(44, 2, 255, 0.197); /* Red color with high transparency on hover */
+  }
+  
+  .h5 {
+    font-weight: bold;
+    font-style: italic;
+  }
+  .rounded-img {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    border-radius: 50%; /* Makes the border circular */
+    border: 2px solid black; /* Adds a black border */
+  }
+  

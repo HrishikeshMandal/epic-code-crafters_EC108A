@@ -1,42 +1,16 @@
-# Project ID - EC108A
-
-# Hacking Guide for Campus Tour 😎
-
-## .Campus Tour 🤞
-
-It is a E-commerce made with HTML CSS 😊
 
 
-## How to setup it on your device ?? 🤔
+# Campus Tour🚶‍♂️🚶‍♂️🚶‍♂️🚶‍♂️🚶‍♂️🚶‍♂️🚶‍♂️🚶‍♂️
+ 
+ Presenting the all new project on Campus Tour
+made by HTML,JS with CSS💻
 
-### 🤞 Step 1
+Thanks to DEVWRAP for organizing this intresting event,it was quite enjoybable to participate here
 
-Click on Fork and rename it as
+## We the "epic code crafters"S
 
-#### TeamName_ProjectID
-### 🤞 Step 2 
-Copy the https link from Code Section
-
-#### Open Command Prompt and type
-
-```http
-  cd desktop
-  git clone <https link>
-```
-Now the project is on your desktop now open it with your code editor
-now you are got to go for hacking !!
-
-
-## 😒 What You are  able to change? 
-1. Given Colors
-2. Logo
-3. Landing page Image
-4. Landing Text Design
-5. Make it a single page on scroll or multipage as you wish
-
-
-
-
-## 👌 Ask your doubt on Discord
-
-[Click Here](https://discord.com/invite/8qJBt5pby5)  👈👈
+### members 
+1. Hrishikesh Mandal
+2. Manish Bera
+3. Ramjan Sk
+4. Rahul Adak 
