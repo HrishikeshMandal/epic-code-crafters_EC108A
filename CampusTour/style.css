@@ -15,7 +15,7 @@ body {
 
 .main {
     width: 100vw;
-    background: linear-gradient(to top, rgba(17, 0, 255, 0.059)50%, rgba(17, 0, 255, 0.059)50%);
+    background: linear-gradient(to top, rgba(1, 1, 5, 0.607)50%, rgba(1, 1, 5, 0.607)50%);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -81,7 +81,7 @@ ul li a {
 
 
 .search {
-    width: 600px;
+    width: 450px;
     float: right;
     margin-left: 270px;
 }
@@ -497,3 +497,119 @@ nav.hoo a:hover {
 	text-decoration: none;
 }
 
+.transparent-box {
+    background-color: rgba(12, 1, 1, 0.601); /* Transparent white background */
+    padding: 20px;
+    border: 2px solid #9b0a0a; /* Black border */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 400px; /* Adjust as needed */
+    margin: 50px auto; /* Center the box horizontally */
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .main-heading {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Freestyle Script', cursive;
+    color: white;
+  }
+  
+  .home-paragraph {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 20px;
+  }
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .search {
+    border-radius: 50px;
+    background-color: rgba(255, 2, 251, 0.399);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .car {
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+  }
+  
+  .btn {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: blue;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .heading {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .subject-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .subject-image:hover {
+    transform: scale(1.1); /* Increase the size on hover */
+  }
+  .altolx {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .alto {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+  }
+  .h2{
+    background: linear-gradient(to top, rgba(1, 1, 5, 0.607)50%, rgba(1, 1, 5, 0.607)50%);
+  }
+  .par{
+    background: linear-gradient(to top, rgba(1, 1, 5, 0.607)50%, rgba(1, 1, 5, 0.607)50%);
+  }
